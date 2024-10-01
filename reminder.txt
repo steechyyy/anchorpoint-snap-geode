@@ -1,0 +1,13 @@
+LevelEditorLayer > mainNode > batchLayer > GjTransformControl > CCNode <1> > CCNode <11>
+						            > CCSprite 1 = anchorpoint
+links = 2
+rechts = 3
+oben = 4
+unten = 5
+obenlinks = 6
+obenrechts = 7
+untenlinks = 8
+untenrechts = 9
+skewHorizontal = 10
+skewVertical = 11
+						   
