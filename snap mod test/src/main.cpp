@@ -26,6 +26,25 @@ using namespace geode::prelude;
  */
 
 #include <Geode/modify/MenuLayer.hpp>
+#include <Geode/modify/LevelEditorLayer.hpp>
+
+/*
+cocos2d::CCNode* findTransformLayer(cocos2d::CCNode* layer) {
+	auto children = layer->getChildren();
+
+	CCObject* child;
+	CCARRAY_FOREACH(children, child) {
+		auto node = static_cast<cocos2d::CCNode*>(child);
+		node->getChild
+		if (node->getName() == layerName) {
+			return node;
+		}
+	}
+
+	return nullptr;
+}
+*/
+
 class $modify(MyMenuLayer, MenuLayer) {
 	bool init() {
 		if (!MenuLayer::init())
@@ -43,4 +62,26 @@ class $modify(MyMenuLayer, MenuLayer) {
 	}
 
 
+};
+
+class $modify(TheEditor, LevelEditorLayer) {
+	bool init(GJGameLevel * p0, bool p1) {
+		if (!LevelEditorLayer::init(p0, p1)) {
+			return false;
+		}
+
+		log::debug("step 1!");
+
+		auto mainNode = this->getChildByID("main-node");
+		auto batchLayer = mainNode->getChildByID("batch-layer");
+		auto GjTransformControl = batchLayer->getChildByID("GjTransformControl");
+
+		/*
+		auto label = cocos2d::CCLabelBMFont::create("Hi world", "bigFont.fnt");
+			label->setPosition(300, 300);
+
+
+		GjTransformControl->addChild(label);
+		*/
+	}
 };

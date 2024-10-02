@@ -24,3 +24,7 @@ Notizen:
 		erstmal finden
 
 - 2.10.2024 2:26PM / habs gefunden xd, 
+
+
+- 2.10.2024 7:25PM / batchLayer ist die layer welche rumgeschoben wird wenn man im
+					 editor scrollt und so
