@@ -15,5 +15,12 @@ skewVertical = 11
 
 Notizen:
 
-- ich nehme an , dass jedes mal wenn man den anchor point bewegt, eine funktion gecalled wird die alles berechnet und so
-test
+-	ich nehme an , dass jedes mal wenn man den anchor point bewegt, 
+	eine funktion gecalled wird die alles berechnet und so
+
+
+- todo: Ich muss die funktion oder class hooken, die dafuer sorgt, dass das ganze
+		zeug neu berechnet wird sobald der anchor point bewegt wird. Ich muss die aber
+		erstmal finden
+
+- 2.10.2024 2:26PM / habs gefunden xd, 

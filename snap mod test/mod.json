@@ -10,5 +10,14 @@
 	"name": "snap mod test",
 	"version": "v1.0.0",
 	"developer": "steechy",
-	"description": ""
+	"description": "",
+
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": "v1.10.0",
+			"importance": "required"
+		}
+	]
+
 }
