@@ -1,4 +1,4 @@
-LevelEditorLayer > mainNode > batchLayer > GjTransformControl > CCNode <1> > CCNode <11>
+'LevelEditorLayer' > 'main-node' > 'batch-layer' > GjTransformControl > CCNode <1> > CCNode <11>
 						            > CCSprite 1 = anchorpoint
 links = 2
 rechts = 3
@@ -11,3 +11,8 @@ untenrechts = 9
 skewHorizontal = 10
 skewVertical = 11
 						   
+
+
+Notizen:
+
+- ich nehme an , dass jedes mal wenn man den anchor point bewegt, eine funktion gecalled wird die alles berechnet und so
