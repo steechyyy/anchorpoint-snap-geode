@@ -37,6 +37,8 @@ class $modify(MyMenuLayer, MenuLayer) {
 		label->setPosition(winSize / 2);
 		this->addChild(label);
 
+		log::debug("hi");
+
 		return true;
 	}
 
